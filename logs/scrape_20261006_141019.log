@@ -1,0 +1,12 @@
+2026-10-06 14:10:19,107 INFO    __main__: Log file: logs\scrape_20261006_141019.log
+2026-10-06 14:10:19,110 INFO    pipeline: === Scraping Books to Scrape ===
+2026-10-06 14:10:24,873 INFO    scrapers.books_scraper: [books] page 1: 20 items (https://books.toscrape.com/)
+2026-10-06 14:10:45,123 INFO    scrapers.books_scraper: [books] page 2: 20 items (https://books.toscrape.com/catalogue/page-2.html)
+2026-10-06 14:11:03,817 INFO    scrapers.books_scraper: [books] page 3: 20 items (https://books.toscrape.com/catalogue/page-3.html)
+2026-10-06 14:11:19,179 INFO    scrapers.books_scraper: [books] max_pages=3 reached
+2026-10-06 14:11:19,182 INFO    pipeline: === Scraping Quotes to Scrape ===
+2026-10-06 14:11:21,750 INFO    scrapers.quotes_scraper: [quotes] page 1: 10 items (https://quotes.toscrape.com/)
+2026-10-06 14:11:28,895 INFO    scrapers.quotes_scraper: [quotes] page 2: 10 items (https://quotes.toscrape.com/page/2/)
+2026-10-06 14:11:34,754 INFO    scrapers.quotes_scraper: [quotes] page 3: 10 items (https://quotes.toscrape.com/page/3/)
+2026-10-06 14:11:38,571 INFO    scrapers.quotes_scraper: [quotes] max_pages=3 reached
+2026-10-06 14:11:38,587 INFO    pipeline: Done: 90 collected -> 0 rejected, 0 duplicates -> 90 final records

@@ -1,0 +1,63 @@
+{
+  "run": {
+    "started_at": "2026-10-06T08:42:34+00:00",
+    "execution_seconds": 1027.89,
+    "config": {
+      "books_url": "https://books.toscrape.com/",
+      "quotes_url": "https://quotes.toscrape.com/",
+      "output_dir": "output",
+      "log_dir": "logs",
+      "timeout": 15.0,
+      "max_retries": 3,
+      "backoff_base": 1.0,
+      "delay": 0.25,
+      "max_pages": null,
+      "fetch_details": true,
+      "respect_robots": true,
+      "user_agent": "scraping-assignment/1.0 (interview take-home; polite crawler)"
+    }
+  },
+  "per_source": {
+    "Books to Scrape": {
+      "records_collected": 1000,
+      "records_after_cleaning": 1000,
+      "records_rejected_validation": 0,
+      "duplicates_detected_and_removed": 0,
+      "final_records": 1000,
+      "scraper_stats": {
+        "pages_scraped": 50,
+        "pages_failed": 0,
+        "items_skipped": 0,
+        "detail_failures": 0
+      }
+    },
+    "Quotes to Scrape": {
+      "records_collected": 100,
+      "records_after_cleaning": 100,
+      "records_rejected_validation": 0,
+      "duplicates_detected_and_removed": 0,
+      "final_records": 100,
+      "scraper_stats": {
+        "pages_scraped": 10,
+        "pages_failed": 0,
+        "items_skipped": 0,
+        "detail_failures": 0
+      }
+    }
+  },
+  "totals": {
+    "records_collected": 1100,
+    "records_after_cleaning": 1100,
+    "cleaning_failures": 0,
+    "records_rejected_validation": 0,
+    "duplicates_detected_and_removed": 0,
+    "final_records": 1100
+  },
+  "rejection_reasons": {},
+  "duplicates_by_rule": {},
+  "http": {
+    "requests_made": 1110,
+    "retries": 0
+  },
+  "duplicate_policy": "first occurrence kept; later duplicates removed and listed in duplicate_records.csv"
+}
